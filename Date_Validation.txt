@@ -1,0 +1,48 @@
+package java_case_study;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Scanner;
+import java.util.Date;
+
+public class Date_Validation {
+
+	public static void main(String[] args) throws ParseException, dateException{
+
+	LocalDate locdate = LocalDate.now();
+	
+	Const_Date constdate = new Const_Date();
+
+	String constdate = consdate.toString();
+
+	Date date = null;
+
+	SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+	System.out.println(constdate);
+
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the date");
+
+	String currentdate = sc.nextLine();
+	try{
+		date = formatter.parse(currentdate);
+
+		if(constantDate.compareTo(currentdate);
+		System.out.print(true);
+		}
+
+		else if(constantDate.compareTo(currentdate) < 0){
+		System.out.print("The date is in invalid format");
+		}
+
+		}catch(ParseException e){
+			throw new dateException();
+		}
+	}
+
+}
+
+
+
+

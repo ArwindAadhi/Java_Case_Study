@@ -1,0 +1,12 @@
+package java_case_study;
+
+public class dateException extends Exception {
+
+	public dateException(){
+		super("Date format is wrong");
+	}
+
+	public dateException(String message){
+		super(message);
+	}
+}

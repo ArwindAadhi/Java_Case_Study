@@ -1,0 +1,21 @@
+package java_case_study;
+
+public class Const_Date{
+
+	private String date = "2020-10-20";
+	
+	public Const_Date(String date) {
+		super();
+		this.date = date;
+	}
+
+	public Const_Date(){
+		super();
+	}
+
+	@Override
+	public String toString() {
+		return date;
+	}
+}
+
